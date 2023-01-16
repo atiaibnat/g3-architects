@@ -1,0 +1,387 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    /* padding: 0; */
+    list-style: none;
+}
+/* ............nav bar............ */
+.nav-header{
+    font-size: 45px;
+    color: #131313;
+    font-weight: 700;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 80px;
+    background: #FFF4E7;
+    padding:20px 80px;
+}
+.nav-items{
+    display: flex;   
+}
+.nav-items li{
+    margin: 10px;
+    font-weight: 500;
+     font-size: 18px;
+     color: #424242;
+}
+/* .............banner.................. */
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFF4E7;
+}
+.banner-btn{
+    background-color: #FF900E;
+    padding: 21px 25px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    color:#fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin:30px 0px;
+}
+.header-part{
+    background-color: #FFF4E7;
+    padding-bottom: 55px;
+    width: 100%;
+}
+.banner-info{
+    background-color: #FFF4E7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.banner-info p{
+  text-align: center;
+  margin-top: 20px;
+}
+.banner-img{
+   width: 80%;
+}   
+/* ................section one(features-section)................*/
+.features-image{
+    width:100%;
+    margin: 0;
+    padding: 0;
+}
+.features-wraper{
+    width: 50%;
+}
+.features-info{
+    width: 50%;
+}
+.features-pic{
+    display: flex;
+}
+.features-pic img{
+    width: 40%;
+    padding: 20px;
+}
+#first{
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+}
+#middle{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+#last{
+    font-weight: 700;
+    font-size: 45px;
+    color:#FF900E
+}
+.features-info-header h2,p{
+    grid-row-gap: 24px
+}
+.features-info-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-top: 24px;
+}
+.features-quicklist{
+    padding: 50px 120px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around ;
+}
+/*------..section two(features-love-enjoy)................. */
+.features-love-enjoy{
+    padding:20px 100px;
+    position: relative;
+}
+.tenYears{
+    background-color: #FF900E;
+    width: 150px;
+    color: #fff;
+    padding: 5px;
+    margin: 5px;
+    border-radius:10px;
+    text-align:center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 48%;
+    right: 50%;
+    transform: translate(-50,-50);
+    top: -20px;
+    padding-top: 10px;  
+}
+.tenYears span{
+   font-size: 30px;
+   font-weight: 600;
+}
+.features-middle-part{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.features-love-enjoy{
+    color: #727272;
+}
+.features-love-enjoy-wraper{
+    width: 50%;
+    padding-right: 20px;
+}
+.features-love-enjoy-wraper h3{
+    color: #000;
+}
+.features-love-enjoy-wraper h4{
+    color: #000;
+}
+.image-wraper{
+    width: 50%;
+    padding-left: 20px;
+}
+.image-wraper img{
+    width: 80%;
+}
+.features-heading{
+    font-size: 30px;
+    border-left: 4px solid #FF900E;
+    padding-left: 8px;
+}
+.features-love-enjoy-text h3{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    width: 468px;
+    height: 106px;
+    font-family: 'Work Sans'; 
+}
+.features-love-enjoy-text p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-top: 24px;
+}
+.features-love-enjoy-description div{
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 0px;
+    border-radius: 8px;
+    margin-top: 10px;
+}  
+/*...............section three............. */
+.some-facts{
+    text-align: left;
+    width: 100%;
+}
+.facts-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+}
+.effects-des{
+    padding-left: 50px;
+    margin: 50px 0;
+}
+.some-facts h1{
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+    padding-left: 50px;
+    padding-bottom: 20px;  
+}
+.some-facts p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+    padding-left: 50px;
+}
+.container h2{
+         font-size: 45px;
+         font-weight: 600;
+         color: #424242;  
+         padding-left: 31.92px;
+         padding-right: 40.92px;
+}
+.container p{
+     font-size: 20px;
+     font-weight: 600;
+     color: #727272;
+     padding-left: 31.92px;
+     padding-right: 40.92px;
+ }
+.container{
+    padding-top: 45.92px;
+    padding-bottom: 59.69px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    margin: 25px;
+    }
+/* ..........Transformar............ */
+.container:hover{
+    background-color: #FF900E;
+    transform:rotate(45deg) scale(0.5);
+    transition: width 10s;
+}
+/* .....section four.......... */
+.sponsors{
+    text-align: center;
+}
+.sponsors-container{
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+.container-item img{
+    width: 50%;
+    margin-bottom: 40px;
+}
+.sponsors h1{
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+    margin-bottom: 24px;
+    margin-top: 80px;
+}
+.sponsors p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+    margin-bottom: 20px;
+    text-align: center;
+}
+/* ...........section five.................. */
+.subs{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #FF900E;
+    width:100%;
+    height: 300px;
+}
+.input-field input{
+    width: 250px;
+    background-color: #000;
+    outline: none;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding:10px;
+}
+.input-field button{
+width: 270px;
+padding: 5px;
+border: 1px solid #fff;
+color: #FF900E;
+font-size: 20px;
+font-weight: 600;
+border-radius: 10px;
+margin-top: 20px;
+}
+.who{
+    font-size: 30px;
+    font-weight: 600;
+}
+/* Footer styles */
+.footer-part{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%
+}
+.footer-part p{
+        width: 80%;
+        background: #FFF4E7;
+         text-align: center;
+         padding-top: 38px;
+         margin: 38px, 410px;
+         padding-bottom: 25px;
+         margin-bottom: 60px;
+         margin-top: 40px;
+         border-radius: 10px;
+         
+}
+/* ...................Media Query...................*/
+@media only screen and (max-width:668px) {   
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .nav-header{
+        font-size: 20px;
+    }
+    .nav-items{
+        display: flex;
+        flex-direction: column;
+    }
+    .features-quicklist{
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:space-around ;
+    } 
+    .facts-container{
+        flex-direction: column;
+    }  
+    .features-pic{
+        flex-direction: column;
+    }
+    .features-pic img{
+        width: 100%;
+    }
+    .sponsors-container{
+        flex-direction: column;
+        position: relative;
+        top: -80px;
+    }
+    .sponsors-container img{
+        margin-top: 20px;
+    }
+    .features-middle-part{
+        flex-direction: column;
+    }
+    .features-love-enjoy{
+        padding: 0;
+    }
+    .subs{
+flex-direction: column-reverse;
+    }
+    .who-wraper{
+        padding: 20px;
+    }   
+}
